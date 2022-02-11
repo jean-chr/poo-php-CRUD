@@ -1,0 +1,39 @@
+nav{
+	background-color: #D2CAEC;
+	width: 100%;
+} 
+nav ul{
+	margin: 0px;
+	padding: 2px;
+	overflow: hidden;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 60px;
+	color: #370028;
+}	
+.container{
+	max-width: 2000px;
+	margin: auto;
+	background: #f2f2f2;
+	overflow: auto;
+}
+.gallery{
+	margin: 5px;
+	border:1px solid #ccc;
+	float: left;
+	width: 390px;
+}
+.gallery img{
+	width: 80%;
+	height: auto;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+}
